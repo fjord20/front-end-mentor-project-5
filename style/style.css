@@ -26,44 +26,41 @@ body {
     font-size: 15px;
     font-family: 'League Spartan', sans-serif;
     width: 100%;
-    height: auto;
+    
 }
 
-.layout-container { 
-  background-image: url(/images/bg-pattern-bottom-desktop.svg);
-  background-size: contain;
-  background-color: hsl(0, 0%, 100%);
-  width: 80vw;
-}
-  
-
-.layout-container-1 {
+.layout-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 100px 160px 100px 160px;
-    width: 100%;
+    background-image: url(/images/bg-pattern-bottom-desktop.svg);
+    background-size: contain;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 1200px;
+    max-height: 900px;
+    
 }
 /* heading section*/
 .heading {
   flex: 1;
   display: flex;
-  /*margin: 100px 0 0 100px;*/
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /*margin-top: 100px;*/
+  margin-left: 60px;
+  margin-right: 20px;
+  margin-top: 50px;
+  
   
 }
 
 .h1-heading h1 {
- color: hsl(303, 10%, 53%);
+ color: hsl(300, 43%, 22%);
  font-weight: 700;
  font-size: 60px;
- margin-right: 50px;
- line-height: 55px;
+ line-height: 50px;
+ padding-right: 50px;
+
 
 }
 
@@ -74,6 +71,7 @@ margin-top: 30px;
 .text-heading p {
   color: hsl(303, 10%, 53%);
   margin-right: 170px;
+  padding-right: 10px;
 
 }
 
@@ -82,11 +80,10 @@ margin-top: 30px;
   flex: 1;
   display: flex; 
   flex-direction: column;
-  align-items: center;
   justify-content: center;
- /* margin: 100px 160px 0 0;*/
   gap: 1rem;
   position: relative;
+  margin-top: 40px;
   }
 
 .rating-1 {
@@ -132,29 +129,28 @@ margin-top: 30px;
 }
 
 .rated-for {
- color: hsl(303, 10%, 53%);
- font-weight: 500;
+ color: hsl(300, 43%, 22%);
+ font-weight: 700;
 }
 
 /* card-response*/
 .card-response {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
-  margin-top: 70px;
   flex-basis: 100%;
   gap: 1rem;
+  margin-top: 50px;
   
 }
 
 .card-1 {
   display: flex;
   flex-direction: column;
-  width: 10vw;
-  height: 10vh;
+  width: 350px;
+  height: 230px;
   background-color: hsl(300, 43%, 22%);
-  border-radius: 5px;
+  border-radius: 0.33rem;
 }
 
 .card-2 {
@@ -165,7 +161,7 @@ margin-top: 30px;
   width: 350px;
   height: 230px;
   background-color: hsl(300, 43%, 22%);
-  border-radius: 5px;
+  border-radius: 0.33rem;
 }
 
 .card-3 {
@@ -176,7 +172,7 @@ margin-top: 30px;
   width: 350px;
   height: 230px;
   background-color: hsl(300, 43%, 22%);
-  border-radius: 5px;
+  border-radius: 0.33rem;
 }
 
 .heading-card {
@@ -203,12 +199,12 @@ margin-top: 30px;
 }
 
 article {
-  margin-top: 30px;
-  margin-left: 30px;  
+  margin: 30px 30px 0 30px;  
 
 }
 
 q {
   color: hsl(300, 24%, 96%);
+  
  
 }
