@@ -34,7 +34,7 @@ html, body {
   background-position: left top, right bottom;
   background-repeat: no-repeat, no-repeat;
   background-color: hsl(0, 0%, 100%);
-  max-width: 1440px;
+  max-width: 1200px;
   padding: 0 0 7% 0; 
 }
 
@@ -45,7 +45,7 @@ html, body {
 display: flex;
 flex-direction: column;
 width: 38%;
-margin: 5% 2% 5% 5%;
+margin: 4% 1% 5% 4%;
 }
 
 .h1-heading h1 {
@@ -62,7 +62,7 @@ margin-top: 5%;
 
 .text-heading p {
 color: hsl(303, 10%, 53%);
-margin-right: 35%;
+margin-right: 20%;
 }
 
 /* rating section*/
@@ -72,8 +72,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 gap: 1rem;
-width: 35%;
-margin-right: 5%;
+width: 30%;
+margin-right: 10%;
 }
 
 .rating-1 {
@@ -83,7 +83,7 @@ flex-direction: row;
 justify-content: left;
 align-items: center;
 border-radius: 0.33rem;
-width: 80%;
+width: 100%;
 height: 40px;
 }
 
@@ -95,7 +95,7 @@ flex-direction: row;
 justify-content: left;
 align-items: center;
 border-radius: 0.33rem;
-width: 80%;
+width: 100%;
 height: 40px;
 background-color: hsl(300, 24%, 96%);
 }
@@ -108,24 +108,23 @@ flex-direction: row;
 justify-content: left;
 align-items: center;
 border-radius: 0.33rem;
-width: 80%;
+width: 100%;
 height: 40px;
 background-color: hsl(300, 24%, 96%);
 }
 
 .stars {
-  width: 35%;
-  margin-left: 8%;
+  width: 40%;
+  margin-left: 2%;
 }
 
 .stars img {
-margin-right: 5%;
+margin-right: 2%;
 }
 
 .rated-for {
 color: hsl(300, 43%, 22%);
 font-weight: 700;
-margin-left: 5%;
 }
 
 /* card-response*/
@@ -201,7 +200,7 @@ color: hsl(333, 80%, 67%);
 }
 
 article {
-margin: 5% 10% 0 10%;  
+margin: 10% 10% 0 10%;  
 }
 
 q {
@@ -220,18 +219,14 @@ color: hsl(300, 24%, 96%);
   padding-bottom: 35%;
 }
 
-
-.heading {
-  align-items: center;  
-}
-
 .heading {
   display: flex;
   flex-direction: column;
   width: 90%;
   align-items: center;
   justify-content: center;
-  margin-top: 20%;
+  margin: 20% 4% 5% 4%;
+
 }
 
 .h1-heading h1 {
@@ -300,14 +295,8 @@ color: hsl(300, 24%, 96%);
   position: static;
 }
 
-.stars {
-  width: 50%;
-}
-
-
-
 .rated-for {
-  margin: 0;
+  margin-top: 2%;
 }
 
 .card-response {
@@ -356,35 +345,7 @@ border-radius: 0.33rem;
 .heading-card {
 display: flex;
 flex-direction: row;
-margin-left: 2rem;
-margin-top: 2.66rem;
+margin-left: 10%;
+margin-top: 10%;
 }
-
-}
-
-@media screen and (min-width: 481px) and (max-width: 1200px) {
-.layout-container {
-  max-width: 90%;
-}
-
-.rating {
-  display: flex; 
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  width: 30%;
-}
-
-/*.rating-1 {
-  background-color: hsl(300, 24%, 96%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 90%;
-  
-}*/
-
-
-
-
 } 
