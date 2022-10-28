@@ -17,7 +17,9 @@ img {
   
 }
 
-html, body {
+body {
+  display: flex;
+  justify-content: center;
   font-size: 15px;
   font-family: 'League Spartan', sans-serif;
   height:100%;
@@ -38,79 +40,78 @@ html, body {
   padding: 0 0 7% 0; 
 }
 
-
 /* heading section*/
 
-.heading {
-display: flex;
-flex-direction: column;
-width: 38%;
-margin: 4% 1% 5% 4%;
+section {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  margin: 4% 1% 5% 4%;
 }
 
 .h1-heading h1 {
-color: hsl(300, 43%, 22%);
-font-weight: 700;
-font-size: 3rem;
-line-height: 0.9em;
-padding-right: 40%;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 0.9em;
+  padding-right: 40%;
 }
 
 .text-heading {
-margin-top: 5%;
+  margin-top: 5%;
 }
 
 .text-heading p {
-color: hsl(303, 10%, 53%);
-margin-right: 20%;
+  color: hsl(303, 10%, 53%);
+  margin-right: 20%;
 }
 
 /* rating section*/
 
 .rating {
-display: flex; 
-flex-direction: column;
-justify-content: center;
-gap: 1rem;
-width: 30%;
-margin-right: 10%;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 30%;
+  margin-right: 10%;
 }
 
 .rating-1 {
-background-color: hsl(300, 24%, 96%);
-display: flex;
-flex-direction: row;
-justify-content: left;
-align-items: center;
-border-radius: 0.33rem;
-width: 100%;
-height: 40px;
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  border-radius: 0.33rem;
+  width: 100%;
+  height: 40px;
 }
 
 .rating-2 {
-position: relative;
-left: 10%;
-display: flex;
-flex-direction: row;
-justify-content: left;
-align-items: center;
-border-radius: 0.33rem;
-width: 100%;
-height: 40px;
-background-color: hsl(300, 24%, 96%);
+  position: relative;
+  left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  border-radius: 0.33rem;
+  width: 100%;
+  height: 40px;
+  background-color: hsl(300, 24%, 96%);
 }
 
 .rating-3 {
-position: relative;
-left: 20%;
-display: flex;
-flex-direction: row;
-justify-content: left;
-align-items: center;
-border-radius: 0.33rem;
-width: 100%;
-height: 40px;
-background-color: hsl(300, 24%, 96%);
+  position: relative;
+  left: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  border-radius: 0.33rem;
+  width: 100%;
+  height: 40px;
+  background-color: hsl(300, 24%, 96%);
 }
 
 .stars {
@@ -119,61 +120,61 @@ background-color: hsl(300, 24%, 96%);
 }
 
 .stars img {
-margin-right: 2%;
+  margin-right: 2%;
 }
 
 .rated-for {
-color: hsl(300, 43%, 22%);
-font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
 }
 
 /* card-response*/
 
 .card-response {
-display: flex;
-flex-direction: row;
-justify-content:center;
-width: 75%;
-gap: 1rem; 
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  width: 75%;
+  gap: 1rem; 
 }
 
 .card-1 {
-position: relative;
-display: flex;
-flex-direction: column;
-width: 35%;
-height: 225px;
-background-color: hsl(300, 43%, 22%);
-border-radius: 0.33rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 225px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.33rem;
 }
 
 .card-2 {
-display: flex;
-flex-direction: column;
-position: relative;
-top: 1.33rem;
-width: 35%;
-height: 225px;
-background-color: hsl(300, 43%, 22%);
-border-radius: 0.33rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 1.33rem;
+  width: 35%;
+  height: 225px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.33rem;
 }
 
 .card-3 {
-display: flex;
-flex-direction: column;
-position: relative;
-top: 2.66rem;
-width: 35%;
-height: 225px;
-background-color: hsl(300, 43%, 22%);
-border-radius: 0.33rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 2.66rem;
+  width: 35%;
+  height: 225px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.33rem;
 }
 
 .heading-card {
-display: flex;
-flex-direction: row;
-margin-left: 10%;
-margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-top: 10%;
 }
 
 .foto-mans {
@@ -182,29 +183,29 @@ margin-top: 10%;
 }
 
 .foto-mans img {
-border-radius: 60%;
+  border-radius: 60%;
 }
 
 .data-mans {
-margin-top: 1%;
+  margin-top: 1%;
 
 }
 
 .name-mans p {
-color: hsl(300, 24%, 96%);
-font-weight: 400;
+  color: hsl(300, 24%, 96%);
+  font-weight: 400;
 }
 
 .status-buyer {
-color: hsl(333, 80%, 67%);
+  color: hsl(333, 80%, 67%);
 }
 
 article {
-margin: 10% 10% 0 10%;  
+  margin: 10% 10% 0 10%;  
 }
 
 q {
-color: hsl(300, 24%, 96%);
+  color: hsl(300, 24%, 96%);
 }
 
 @media screen and (max-width: 480px) {
@@ -219,7 +220,7 @@ color: hsl(300, 24%, 96%);
   padding-bottom: 35%;
 }
 
-.heading {
+section {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -230,15 +231,14 @@ color: hsl(300, 24%, 96%);
 }
 
 .h1-heading h1 {
- color: hsl(300, 43%, 22%);
- font-weight: 700;
- font-size: 2rem;
- line-height: 1em;
- padding: 0;
- margin-left: 10%;
- margin-right: 10%;
- text-align: center;
- 
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1em;
+  padding: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 }
 
 .text-heading {
@@ -265,14 +265,13 @@ color: hsl(300, 24%, 96%);
 }
 
 .rating-1 {
-    background-color: hsl(300, 24%, 96%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-    height: 50px;
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  height: 50px;
     
-   
 }
 
 .rating-2 {
@@ -300,52 +299,53 @@ color: hsl(300, 24%, 96%);
 }
 
 .card-response {
-display: flex;
-flex-direction: column;
-justify-content:center;
-align-items: center;
-width: 90%;
-gap: 1rem; 
-margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  width: 90%;
+  gap: 1rem; 
+  margin-top: 3rem;
 
 }
 
 .card-1 {
-display: flex;
-flex-direction: column;
-width: 90%;
-height: 15.3rem;
-background-color: hsl(300, 43%, 22%);
-border-radius: 0.33rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 15.3rem;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.33rem;
 }
 
 .card-2 {
-display: flex;
-flex-direction: column;
-position: relative;
-top: 1.33rem;
-width: 90%;
-height: 15.3rem;
-background-color: hsl(300, 43%, 22%);
-border-radius: 0.33rem;
-overflow: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 1.33rem;
+  width: 90%;
+  height: 15.3rem;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.33rem;
+  overflow: auto;
 }
 
 .card-3 {
-display: flex;
-flex-direction: column;
-position: relative;
-top: 2.66rem;
-width: 90%;
-height: 15.3rem;
-background-color: hsl(300, 43%, 22%);
-border-radius: 0.33rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 2.66rem;
+  width: 90%;
+  height: 15.3rem;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.33rem;
 }
 
 .heading-card {
-display: flex;
-flex-direction: row;
-margin-left: 10%;
-margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-top: 10%;
 }
+
 } 
