@@ -4,8 +4,7 @@
 
 h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
-  padding: 0;
-  
+  padding: 0; 
 }
 
 ol, ul {
@@ -14,7 +13,6 @@ ol, ul {
 
 img {
   max-width: 100%;
-  
 }
 
 body {
@@ -54,7 +52,7 @@ section {
   font-weight: 700;
   font-size: 3rem;
   line-height: 0.9em;
-  padding-right: 40%;
+  padding-right: 10%;
 }
 
 .text-heading {
@@ -221,18 +219,12 @@ q {
 }
 
 section {
-  display: flex;
-  flex-direction: column;
   width: 90%;
   align-items: center;
-  justify-content: center;
   margin: 20% 4% 5% 4%;
-
 }
 
 .h1-heading h1 {
-  color: hsl(300, 43%, 22%);
-  font-weight: 700;
   font-size: 2rem;
   line-height: 1em;
   padding: 0;
@@ -247,26 +239,19 @@ section {
 }
 
 .text-heading p {
-  color: hsl(303, 10%, 53%);
   margin: 0;
-  padding: 0;
   text-align: center;
   line-height: 1.5rem;
   
 }
 
 .rating {
-  display: flex; 
-  flex-direction: column;
   align-items: center;
-  gap: 1rem;
   width: 90%;
   margin: 0%;
 }
 
 .rating-1 {
-  background-color: hsl(300, 24%, 96%);
-  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 90%;
@@ -275,8 +260,6 @@ section {
 }
 
 .rating-2 {
-  background-color: hsl(300, 24%, 96%);
-  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 90%;
@@ -285,8 +268,6 @@ section {
 }
 
 .rating-3 {
-  background-color: hsl(300, 24%, 96%);
-  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 90%;
@@ -299,53 +280,21 @@ section {
 }
 
 .card-response {
-  display: flex;
   flex-direction: column;
-  justify-content:center;
   align-items: center;
   width: 90%;
-  gap: 1rem; 
   margin-top: 3rem;
-
 }
 
 .card-1 {
-  display: flex;
-  flex-direction: column;
   width: 90%;
-  height: 15.3rem;
-  background-color: hsl(300, 43%, 22%);
-  border-radius: 0.33rem;
 }
 
 .card-2 {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 1.33rem;
   width: 90%;
-  height: 15.3rem;
-  background-color: hsl(300, 43%, 22%);
-  border-radius: 0.33rem;
-  overflow: auto;
 }
 
 .card-3 {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 2.66rem;
   width: 90%;
-  height: 15.3rem;
-  background-color: hsl(300, 43%, 22%);
-  border-radius: 0.33rem;
 }
-
-.heading-card {
-  display: flex;
-  flex-direction: row;
-  margin-left: 10%;
-  margin-top: 10%;
-}
-
 } 
